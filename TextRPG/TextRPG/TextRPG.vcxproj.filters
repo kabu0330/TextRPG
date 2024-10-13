@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TextRpgCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRPG.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\Actor\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="StatusUnit.cpp">
+      <Filter>Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FightZone.cpp">
+      <Filter>Object\Map\Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Object\Map\Contents</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enums.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRpgCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\Actor\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="StatusUnit.h">
+      <Filter>Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FightZone.h">
+      <Filter>Object\Map\Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Object\Map\Contents</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Global">
+      <UniqueIdentifier>{4b31e5e3-d764-47e2-9110-2cc8a021be35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0d1c8fbf-b57c-4210-bf3a-48cbaa345b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2d419f31-b7cc-4a13-9136-756f5b920803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{bc59696c-b371-411e-b550-a6e52a13beb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor">
+      <UniqueIdentifier>{8b3ec177-6ad9-4889-9334-bd906e65b609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Contents">
+      <UniqueIdentifier>{e521bc0e-5a6c-433d-bbc6-615647a4d51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map">
+      <UniqueIdentifier>{aca9b468-5811-4893-b295-819d8522de39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\Contents">
+      <UniqueIdentifier>{fbd7f064-e9eb-4198-86a3-d85898458f3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

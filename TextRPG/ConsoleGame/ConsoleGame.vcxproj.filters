@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ConsoleWindow.cpp" />
+    <ClCompile Include="ConsoleImage.cpp" />
+    <ClCompile Include="Player.cpp">
+      <Filter>Contents</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalValue.cpp">
+      <Filter>Engine\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="Enums.cpp">
+      <Filter>Engine\Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleWindow.h" />
+    <ClInclude Include="ConsoleImage.h" />
+    <ClInclude Include="Player.h">
+      <Filter>Contents</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalValue.h">
+      <Filter>Engine\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Engine\Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{f84a5782-bf96-4463-a21b-439ff0d68a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{82fbc834-38f7-4469-ae9c-3dd523708cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{8459191b-807d-4d9a-9400-38e5d208c4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Global">
+      <UniqueIdentifier>{075c1469-ffc1-4a59-9355-1b5af20be65a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
